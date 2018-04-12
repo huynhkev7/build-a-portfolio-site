@@ -1,3 +1,7 @@
+body {
+    color: #2d3c49;
+}
+
 .border-black{
     border: 1px solid black;
 }
@@ -6,15 +10,19 @@
     width: 100%;
 }
 
-.container > .row > hr {
+hr {
     border-bottom: 4px solid #7d97ad;
     width: 100%;
 }
 
 .work-item {
     word-wrap: break-word;
-    padding:0px;
 }
+
+.img-fluid {
+    width: 100%;
+}
+
 #feature-title {
     color: #bbb;
     letter-spacing: 1px;
@@ -30,4 +38,9 @@
 .profile-title {
     font-weight: 400;
     text-transform: uppercase;
+}
+
+a, a:hover {
+    color: #2d3c49;
+    text-decoration: none;
 }
