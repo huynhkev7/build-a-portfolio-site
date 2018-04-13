@@ -1,81 +1,58 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-    <!-- import custom styles for portfolio site -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    
-    <title>Kevin Huynh - Front End Ninja</title>
-</head>
-    <body>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Kevin Huynh - Seatle Native</title>
+        <link rel="icon" type="image/jpg" href="img/logo.jpg"/>
+        <!-- Load Bootstrap Framework CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Lead Custom CSS for website -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="container">
         <header>
-            <div class="container">
-                <div class="row align-items-center no-gutters">
-                    <!-- Logo on left side -->
-                    <div class="col-sm-2 text-center text-sm-left">
-                        <img src="img/udacity_logo.png" alt="Udacity Logo">
-                    </div>
-                    <!-- Title on right side -->
-                    <div class="col-sm-10 text-center text-sm-right">
-                        <h1 class="profile-name">Kevin Huynh</h1>
-                        <h3 class="profile-title">Front-End Ninja</h3>
-                    </div>
+            <div class="row">
+                <div class="col-sm-2 text-center text-sm-left">
+                    <img src="img/logo.jpg" class="img-fluid rounded-circle" alt="Seattle Logo">
+                </div>
+                <div class="col-sm-10 text-center text-uppercase text-sm-right">
+                    <h1 class="profile-name">Kevin Huynh</h1>
+                    <h3 class="profile-title">Seattle Native</h3>
                 </div>
             </div>
+            <hr class="w-100">
         </header>
         <main>
-            <!-- separator -->
-            <div class="container">
-                <div class="row no-gutters">
-                    <hr>
-                </div>
-            </div>
-            <!-- display large banner -->
+            <figure class="my-4">
+                <img src="img/banner.jpg" class="img-fluid w-100 h-100" alt="Seattle Skyline">
+            </figure>
             <section>
-                <div class="container">
-                    <div class="row no-gutters">
-                        <img src="img/code_banner.jpg" class="img-fluid banner-image" alt="Banner Image">
-                    </div>
+                <h2 class="feature-title text-muted">Featured Parks</h2>
+                <div class="row text-center">
+                    <figure class="col-xs-12 col-md-4">
+                        <img src="img/gas_works.jpg" class="img-fluid w-100" alt="Gas Works Park">
+                        <h3 class="text-uppercase my-2">Gas Works</h3>
+                        <figcaption>2101 N Northlake Way, Seattle, WA 98103</figcaption>
+                    </figure>     
+                    <figure class="col-xs-12 col-md-4">
+                            <img src="img/discovery_park.jpg" class="img-fluid w-100" alt="Discovery Park">
+                            <h3 class="text-uppercase my-2">Discovery</h3>
+                            <figcaption>3801 Discovery Park Blvd, Seattle, WA 98199</figcaption>
+                    </figure>
+                    <figure class="col-xs-12 col-md-4">
+                            <img src="img/green_lake.jpg" class="img-fluid w-100" alt="Greenlake Park">
+                            <h3 class="text-uppercase my-2">Green Lake</h3>
+                            <figcaption>7201 East Green Lake Dr N, Seattle, WA 98115</figcaption>
+                    </figure>                                                                               
                 </div>
-            </section>
-            <br>
-            <!-- Display featured work -->
-            <section>
-                <div class="container">
-                    <div class="row no-gutters">
-                        <div class="col-xs-12">
-                            <h2 id="feature-title">Featured Work</h2>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-sm-4 work-item">
-                            <img src="img/appify.jpg" class="img-fluid" alt="A generic square placeholder image with rounded corners in a figure.">
-                            <h3 class="text-uppercase">Appify</h3>
-                            <p><a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a></p>
-                        </div>     
-                        <div class="col-sm-4 work-item">
-                                <img src="img/sunflower.jpg" class="img-fluid" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <h3 class="text-uppercase">Sunflower</h3>
-                                <p><a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a></p>
-                        </div>
-                        <div class="col-sm-4 work-item">
-                                <img src="img/bokeh.jpg" class="img-fluid" alt="A generic square placeholder image with rounded corners in a figure.">
-                                <h3 class="text-uppercase">Bokeh</h3>
-                                <p><a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a></p>
-                        </div>                                                                               
-                    </div>
-                </div>
-                <!-- Display list of thumbnails-->
             </section>
         </main>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<footer class="text-center">
+            <p class="my-2 text-muted">Copyright © 2018 Kevin Huynh</p>
+		</footer>
+        <!-- Load Bootstrap JS and its dependencies -->
         <script src="js/jquery.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

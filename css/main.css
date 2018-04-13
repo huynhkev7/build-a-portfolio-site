@@ -1,32 +1,13 @@
-body {
-    color: #2d3c49;
-}
-
-.border-black{
-    border: 1px solid black;
-}
-
-.banner-image {
-    width: 100%;
-}
-
-hr {
-    border-bottom: 4px solid #7d97ad;
-    width: 100%;
-}
-
-.work-item {
-    word-wrap: break-word;
-}
-
-.img-fluid {
-    width: 100%;
-}
-
-#feature-title {
-    color: #bbb;
+/* Content */
+.feature-title {
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+
+/* Header */
+hr {
+    border-bottom: 4px solid #7d97ad;
 }
 
 .profile-name {
@@ -37,10 +18,4 @@ hr {
 
 .profile-title {
     font-weight: 400;
-    text-transform: uppercase;
-}
-
-a, a:hover {
-    color: #2d3c49;
-    text-decoration: none;
 }
