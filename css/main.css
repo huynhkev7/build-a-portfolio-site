@@ -1,9 +1,20 @@
 /* Content */
+a.no-underline {
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #ddd;
+}
+
+.card-title {
+    letter-spacing: 2px;
+}
+
 .feature-title {
     letter-spacing: 1px;
     font-weight: 300;
 }
-
 
 /* Header */
 hr {
