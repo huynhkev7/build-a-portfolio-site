@@ -9,4 +9,4 @@ Clone the project using Git or download project zip.
 3. Open with preferred web browser
 
 ## Authors
--Project starter code provided by Udacity and modified by Kevin Huynh
+-Project written by Kevin Huynh
